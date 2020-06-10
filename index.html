@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      마트 속 햄스터
+    </title>
+
+  <style>
+   body {background-color: #f7c100;}
+
+   #ham {position: relative;
+         top: 25px; left: 10px;
+         z-index: 2;}
+
+
+   #menu {background-color: #01bdc9;
+         height: 60px; width: 100%;
+         position: absolute; }
+
+   #img {position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%; left: 50%;}
+
+  aside {display: block;
+       position: absolute;
+       transform: translate(-50%, -50%);
+       top: 90%; left: 50%;}
+  </style>
+
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  </head>
+
+  <body>
+    <div id="ham">
+    <a href="./menu.html">
+     <img src="./ham.png" width="150px">
+   </a>
+    </div>
+
+    <div id="menu" style="left:0px; top:0px;">
+    </div>
+
+    <div id="img">
+    <img src="./logo.png" width="400px" height="400px">
+    </div>
+
+    <aside>
+       <a href="http://www.companion.or.kr/" target="_blank">
+         <img src="./button1.png">
+     </a>
+
+      <a href="http://www.animal.go.kr/" target="_blank">
+        <img src="./button2.png">
+    </a>
+    </aside>
+  </body>
+</html>
